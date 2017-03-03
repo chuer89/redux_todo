@@ -1,2 +1,2 @@
 # redux_todo
-react+redux+es6
+1react+redux+es6
