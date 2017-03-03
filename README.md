@@ -1,2 +1,8 @@
 # redux_todo
-1react+redux+es6
+react+redux+es6
+
+todo
+
+1.npm install
+2.npm start
+
