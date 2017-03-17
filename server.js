@@ -21,9 +21,9 @@ app.use('/static', express.static(__dirname + '/static'));
   }));
 
   // Step 3: Attach the hot middleware to the compiler & the server
-  // app.use(webpackHotMiddleware(compiler, {
-  //   log: console.log, path: '/__webpack_hmr', heartbeat: 10 * 1000
-  // }));
+  app.use(webpackHotMiddleware(compiler, {
+    log: console.log, path: '/__webpack_hmr', heartbeat: 10 * 1000
+  }));
 })();
 
 app.get('*', function(req, res) {
